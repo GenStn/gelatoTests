@@ -1,4 +1,4 @@
-describe('lol', () => {
+describe('Todo\'s tests', () => {
     let gelatoPage = require('./gelato_page')
 
     beforeEach(() =>{
@@ -104,7 +104,6 @@ describe('lol', () => {
 
         //assert adding after deleting
         const twoTodos = threeTodos.slice(0, 2)
-        console.log(twoTodos)
         twoTodos.forEach(todo => {
             gelatoPage.addTodo(todo)
         })
