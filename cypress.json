@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://todomvc.com/examples/react/#/",
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 30000,
+  "taskTimeout": 120000,
+  "numTestsKeptInMemory": 0,
+  "requestTimeout": 20000,
+  "chromeWebSecurity": false,
+  "screenshotsFolder": "cypress/screenshots",
+  "screenshotOnRunFailure": true,
+  "video": false,
+  "testFiles": "**/*_spec*"
+}
